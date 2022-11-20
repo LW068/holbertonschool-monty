@@ -18,4 +18,4 @@ In the pushdown stacks only two operations are allowed: push the item into the s
 
 An excellent example of a queue is a line of students in the food court of the UC. New additions to a line made to the back of the queue, while removal (or serving) happens in the front. In the queue only two operations are allowed enqueue and dequeue. Enqueue means to insert an item into the back of the queue, dequeue means removing the front item. The picture demonstrates the FIFO access. The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
 
-<img src="https://everythingcomputerscience.com/discrete_mathematics/queueImg.jpg" alt="Queue">
+<img src="https://user-images.githubusercontent.com/105394574/202880430-644d35ed-6ded-4d32-9f58-1e95e26d7b31.png" alt="Queue">
