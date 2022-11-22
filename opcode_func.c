@@ -16,7 +16,7 @@ void push_monty_stack(stack_t **stack, unsigned int line_number)
 	if (!(GlobalVar[1]))
 	{
 		fprintf(stderr, "L%d: usage: push integer\n", line_number);
-		free_tiktok(stack);
+		free_sg(stack);
 		exit(EXIT_FAILURE);
 	}
 	newNode = malloc(sizeof(stack_t));
@@ -24,7 +24,7 @@ void push_monty_stack(stack_t **stack, unsigned int line_number)
 	|| GlobalVar[1][0] == '-'))
 	{
 		fprintf(stderr, "L%d: usage: push integer\n", line_number);
-		free_tiktok(stack);
+		free_sg(stack);
 		exit(EXIT_FAILURE);
 	}
 	numStr[0] = GlobalVar[1][0];
@@ -34,7 +34,7 @@ void push_monty_stack(stack_t **stack, unsigned int line_number)
 		{
 			fprintf(stderr, "L%d: usage: push integer\n", line_number);
 			free(newNode);
-			free_tiktok(stack);
+			free_sg(stack);
 			exit(EXIT_FAILURE);
 		}
 		numStr[j] = GlobalVar[1][j];
