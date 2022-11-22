@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 		GlobalVar[1] = second;
 		op_fun_res(lineNum, first, &dasStack);
 	}
-	free_tiktok(&dasStack);
+	free_sg(&dasStack);
 	fclose(inboundFD);
 	return (0);
 }
