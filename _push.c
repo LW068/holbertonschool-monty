@@ -12,6 +12,7 @@ void _push(stack_t **stack, unsigned int line_number)
 {
 	stack_t *node;
 	char *num;
+	char DELIMS;
 
 	num = strtok(NULL, DELIMS);
 	if (num == NULL)
