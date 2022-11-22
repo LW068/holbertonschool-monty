@@ -46,9 +46,9 @@ typedef struct instruction_s
 } instruction_t;
 
 /*
- * prototypes - function protos below
+ * prototypes
  */
-void op_fun_res(unsigned int lineNum, char *tiktok, stack_t **dasStack);
+void op_fun_res(unsigned int lineNum, char *boom, stack_t **dasStack);
 void push_monty_stack(stack_t **stack, unsigned int line_number);
 void pall_monty_stack(stack_t **stack, unsigned int line_number);
 void pint_monty_stack(stack_t **stack, unsigned int line_number);
